@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+/*页面整体样式*/
+body{
+	margin:0;
+	width:100%;
+	font-size:15px;
+	font-family:"微软雅黑";
+}
+.clear{
+	clear:both;
+}
+a{
+	color:#000000;
+	text-decoration:none;
+}
+.container{
+	width:100%;
+	height:100%;
+	margin:0 auto;
+}
+/*页面顶部样式*/
+/*页面头部店名logo样式*/
+.header{
+	width:1515px;
+	height:150px;
+}
+.header .dianming span{
+	font-size:45px;
+	color:#F00;
+	font-family:"华文行楷";
+}
+.header .dianming{
+	width:260px;
+	height:70px;
+	margin-top:40px;
+	margin-left:140px;
+	float:left;
+}
+.header .dianming .xiaoyushudian .xiaoyu{
+	font-size:30px;
+	margin-left:43px;
+	display:block;
+	margin-top:-15px;
+}
+.header .dianming .xiaoyushudian img{
+	width:60px;
+	height:60px;
+	margin-bottom:-20px;
+}
+.header .huanyingdenglu{
+	width:100px;
+	height:70px;
+	float:left;
+	margin-left:50px;
+	margin-top:40px;
+	line-height:70px;
+	color:#333;
+	font-size:16px;
+}
+
+/*页面中部样式*/
+.container{
+	width:100%;
+	background-color:#fff;
+}
+.title{
+	width:410px;
+	height:50px;
+	line-height:50px;
+	margin:0 auto;
+	background-color:#f5f5f5;
+	color:#000;
+}
+.container .form{
+	width:410px;
+	margin:50px auto 0;
+	font-size:16px;
+}
+.container .form input{
+		width:306px;
+		height:50px;
+		border:1px solid #e0e0e0;
+		margin-bottom:20px;
+		padding-left:1em;
+	font-size:16px;
+}
+.container .form .sex{
+	width:16px;
+	height:16px;
+}
+.container .form .xieyi{
+	width:16px;
+	height:16px;
+	margin-left:100px;
+}
+.container .form .submit{
+    background-color:#ff6700;
+    color:#fff;
+    width:200px;
+    height:50px;
+    margin-left:120px;
+}
+
+/*页面底部样式*/
+/*页面底部样式*/
+.footer{
+	width:1518px;
+	height:100px;
+	text-align:center;
+	color:#666;
+	line-height:100px;
+}
+
+
