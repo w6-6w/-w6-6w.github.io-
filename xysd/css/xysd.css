@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*页面整体样式*/
+body{
+	margin:0;
+	width:100%;
+	font-size:15px;
+	font-family:"黑体";
+}
+.clear{
+	clear:both;
+}
+a{
+	color:#000000;
+	text-decoration:none;
+}
+.container{
+	width:100%;
+	height:100%;
+	margin:0 auto;
+	background-color:#F7F7F7;
+	border:1px solid #FFF;
+}
+/*页面头部样式*/
+.header{
+	width:100%;
+	height:120px;
+	border:1px solid #000;
+}
+.header h1{
+	display:block;
+	margin-top:30px;
+	margin-left:20px;
+}
+
+/*页面头部店名logo样式*/
+.header .dianming span{
+	font-size:45px;
+	color:#F00;
+	font-family:"华文行楷";
+}
+.header .dianming{
+	width:260px;
+	height:70px;
+	margin-top:20px;
+	margin-left:140px;
+	float:left;
+}
+.header .dianming .xiaoyushudian .xiaoyu{
+	font-size:30px;
+	margin-left:43px;
+	display:block;
+	margin-top:-15px;
+}
+.header .dianming .xiaoyushudian img{
+	width:60px;
+	height:60px;
+	margin-bottom:-20px;
+}
+
+/*页面中部样式*/
+.content{
+	width:600px;
+	height:380px;
+	margin:0 auto;
+	background-color:#FFF;
+        margin-top: -15px;
+}
+.content .content_top{
+	width:100%;
+	height:180px;
+        
+}
+.content .content_top .top{
+	width:100%;
+	height:140px;
+	border:1px solid #000;
+}
+.content .content_bottom{
+	width:100%;
+	height:204px;
+	margin-top:20px;
+}
+
+.content .content_bottom .bottom{
+	width:100%;
+	height:140px;
+	border:1px solid #000;
+}
+
+/*页面底部样式*/
+.footer{
+	width:1518px;
+	height:300;
+	text-align:center;
+	color:#999;
+	background-color:#F2F2F2;
+	margin-top:0px;
+	border:1px solid #F2F2F2;
+}
+.footer .footer_top{
+	width:1518px;
+	height:120px;
+	margin-bottom:30px;
+	border-bottom:1px solid #CCC;
+}
+.footer .footer_top ul{
+	margin-left:192px;
+	width:1200px;
+}
+.footer .footer_top ul li{
+	list-style:none;
+	width:230px;
+	height:60px;
+	float:left;
+	margin-left:35px;
+	margin-top:30px;
+}
+.footer .footer_top ul li img{
+	width:40px;
+	height:40px;
+	display:block;
+
+}
+.footer .footer_top ul li .xiaoyushudian{
+	color:#000;
+	font-weight:bolder;
+	width:200px;
+	height:40px;
+	font-size:17px;
+	display:block;
+	margin-top:-30px;
+	margin-left:20px;
+}
